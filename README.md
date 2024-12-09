@@ -12,6 +12,5 @@ npm start
 
 Due to copyright issues, the EvenNode server has been shut down.
 
-# How To Host In Heroku
-Follow whis tutorial but instead fork from this instead of wrapper online
-https://www.youtube.com/watch?v=lndVj4QEZkA
+# How To Host In Glitch
+https://www.youtube.com/watch?v=F0bmnoPDEsE
