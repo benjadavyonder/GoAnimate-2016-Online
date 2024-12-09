@@ -209,7 +209,7 @@ module.exports = (voiceName, text) => {
 				case "readloud": {
 					const req = https.request(
 						{
-							hostname: "gonutts.net",														
+							hostname: "tts.town",														
 							path: voice.arg,
 							method: "POST",
 							headers: { 							
@@ -227,7 +227,7 @@ module.exports = (voiceName, text) => {
 
 								if (path.length > 0) {
 									https.get({
-										hostname: "gonutts.net",	
+										hostname: "tts.town",	
 										path: `/${path}`,
 										headers: {
 										}
