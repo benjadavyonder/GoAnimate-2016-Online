@@ -8,7 +8,7 @@ const http = require("http");
 // Fallback option for compatibility between Wrapper and https://github.com/Windows81/Text2Speech-Haxxor-JS.
 let get;
 try {
-	get = require("../misc/get");
+	get = require("../request/get");
 } catch {
 	get = require("./get");
 }
